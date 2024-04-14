@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --colore_1d: #1d1d1b;
+  --colore_avorio: #fffff0;
+  --colore_carminio: #960018;
+  --colore_saffron: #eec007;
+  --colore_vantablack: #000100;
+}
+
+/**
+* Anima
+**/
+
+/*Sfondo Camaleonte*/
+@keyframes camaleonte_body {
+  0%,
+  100% {
+    background: var(--colore_carminio);
+  }
+  50% {
+    background: var(--colore_saffron);
+  }
+}
+
+/*Firma camaleonte*/
+
+@keyframes firma_camaleonte_elementi_saffron {
+  0%,
+  100% {
+    fill: var(--colore_saffron);
+  }
+
+  50% {
+    fill: var(--colore_carminio);
+  }
+}
+
+@keyframes firma_camaleonte_elementi_carminio {
+  0%,
+  100% {
+    fill: var(--colore_carminio);
+  }
+
+  50% {
+    fill: var(--colore_saffron);
+  }
+}
+
+@keyframes camaleonte_firma_shell {
+  20%,
+  80% {
+    fill: var(--colore_1d);
+  }
+
+  40% {
+    fill: var(--colore_carminio);
+  }
+
+  60% {
+    fill: var(--colore_saffron);
+  }
+}
+
+/**
+* Font 
+**/
+
+.league_gothic{
+  font-family: var(--font-league_gothic);
+}
+
+.integrity_illusion {
+  font-family: var(--font-integrity_illusion);
+}
+
+.bg_camaleonte{
+  animation-name: camaleonte_body;
+  animation-duration: 37s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/*Card*/
+
+.card{
+  background-color: var(--colore_1d);
+  background-image: url("/img/bg/letterpress.gif");
+  border-radius: 150px 0;
+}
+
+/*Testo Card*/
+
+#intro_presentazione_box {
+  display: none;
+}
+
+.txt_embossed {
+  text-shadow: 0px 1px 1px #4d4d4d;
+  color: var(--colore_1d);
+  text-align: center;
+}
+
+/**
+* Card Fronte
+*/
+
+#indirizzo {
+  font-size: 2.3rem !important;
+}
+
+#ethmail {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+
+
+/*Logo*/
+
+.logo_box {
+  width: 17rem;
+  height: 17rem;
+}
+
+.firma_shell_svg {
+  fill: var(--colore_1d);
+  animation-name: camaleonte_firma_shell;
+  animation-duration: 37s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#firma_shell {
+  transform-origin: center;
+  -webkit-filter: drop-shadow(0px 1px 1px #4d4d4d);
+  filter: drop-shadow(0px 1px 1px #4d4d4d);
+}
+
+.firma_svg_elementi_anima_1 {
+  animation-name: camaleonte_firma_shell;
+  animation-duration: 57s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.firma_svg_elementi_saffron {
+  fill: var(--colore_saffron);
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+  stroke-width: 0.75px;
+  animation-name: firma_camaleonte_elementi_saffron;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.firma_svg_elementi_carminio {
+  fill: var(--colore_carminio);
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+  stroke-width: 0.75px;
+  animation-name: firma_camaleonte_elementi_carminio;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.letterpress h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+}
+
+.letterpress h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+}
+
+.letterpress h1:hover {
+  color: var(--colore_saffron);
+}
+
+.letterpress h2:hover {
+  color: var(--colore_carminio);
+}
+
+.letterpress p {
+  font-size: 2.8rem;
+}
+
+.margin_0 {
+  margin: 0;
+}
+
+
+#indirizzo {
+  font-size: 2.2rem;
+}
+
+.avorio_hover:hover {
+  color: var(--colore_avorio);
+}
+
+/**
+* 418px
+**/
+
+@media screen and (min-height: 418px) {
+  #intro_presentazione_box {
+    display: flex;
+  }
+
+  #ethmail {
+    margin-top: 3rem;
+  }
+
+  /*Retro*/
+
+  .descrittore_retro_box {
+    display: block;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  /**
+* Card Fronte
+*/
+
+  #web3_design {
+    height: 50px;
+    font-size: 1.9rem;
+  }
+
+  .txt_embossed_web3:hover {
+    color: var(--colore_carminio);
+  }
+
+  .letterpress h1 {
+    font-size: 2.7vw;
+  }
+
+  .letterpress p {
+    font-size: 1.9vw;
+  }
+
+  .logo_box {
+    width: 17vw;
+    height: 17vw;
+  }
+
+  .indirizzo_box {
+    flex-direction: row;
+  }
+
+  #indirizzo {
+    display: none;
+  }
+
+  #indirizzo_desktop {
+    display: block;
+  }
+
+  .copy_box {
+    width: 15px;
+    margin-top: 3em;
+    margin-left: 3rem;
+  }
+
+  .copy {
+    position: absolute;
+    top: 0;
+    left: calc(-50% - 3px);
+    padding: 3px;
+    color: var(--colore_avorio);
+    border: 1px solid var(--colore_1d);
+    transform: translateY(-100%);
+    transition: 0.7s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .copy_traslata {
+    transform: translateY(-130%);
+    transition: 0.7s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #ethmail {
+    font-size: 1.9vw;
+    margin-top: 0;
+  }
+}
