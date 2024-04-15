@@ -17,12 +17,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/1`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/1`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/3`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/3`,
             },
             {
               label: "Infranto",
@@ -44,12 +44,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/2`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/2`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/4`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/4`,
             },
             {
               label: "Mahekeh",
@@ -71,12 +71,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/3`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/3`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/5`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/5`,
             },
             {
               label: "Iurta",
@@ -98,12 +98,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/4`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/4`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/6`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/6`,
             },
             {
               label: "SIDT",
@@ -125,12 +125,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/5`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/5`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/7`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/7`,
             },
             {
               label: "Criptolab",
@@ -152,12 +152,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/6`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/6`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/8`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/8`,
             },
             {
               label: "MonAIker",
@@ -179,12 +179,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/7`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/7`,
             },
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/9`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/9`,
             },
             {
               label: "Hydrosanitech",
@@ -206,12 +206,12 @@ async function getResponse(
               {
                 label: "Back",
                 action: "post",
-                target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/8`,
+                target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/8`,
               },
               {
                 label: "Next",
                 action: "post",
-                target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/10`,
+                target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/10`,
               },
               {
                 label: "RoBits",
@@ -233,12 +233,12 @@ async function getResponse(
                 {
                   label: "Back",
                   action: "post",
-                  target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/9`,
+                  target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/9`,
                 },
                 {
                   label: "Next",
                   action: "post",
-                  target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/11`,
+                  target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/11`,
                 },
                 {
                   label: "Hopera",
@@ -260,12 +260,12 @@ async function getResponse(
                   {
                     label: "Back",
                     action: "post",
-                    target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/10`,
+                    target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/10`,
                   },
                   {
                     label: "Next",
                     action: "post",
-                    target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/12`,
+                    target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/12`,
                   },
                   {
                     label: "ETHRome",
@@ -287,12 +287,12 @@ async function getResponse(
             {
               label: "Back",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/11`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/11`,
             },
             {
               label: "Restart",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/1`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/1`,
             },
             {
               label: "Taglione",
@@ -314,7 +314,7 @@ async function getResponse(
             {
               label: "Next",
               action: "post",
-              target: `${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/2`,
+              target: `${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/2`,
             },
             {
               label: "Integrity Illusion",

@@ -20,7 +20,7 @@ const frameMetadata = getFrameMetadata({
     src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/herminius_banner.gif`,
     aspectRatio: "1.91:1",
   },
-  postUrl:`${NEXT_PUBLIC_SITE_URL}/api/hoperaDeck/1`
+  postUrl:`${NEXT_PUBLIC_SITE_URL}/api/portfolioDeck/1`
 });
 
 export const metadata: Metadata = {
