@@ -32,7 +32,7 @@ async function getResponse(
             { label: "herminius", action: "link", target: "https://herminius.eth.limo" },
           ],
           image: {
-            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/infranto.gif`,
+            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/infranto.png`,
             aspectRatio: "1:1",
           },
         })
@@ -86,7 +86,7 @@ async function getResponse(
             { label: "herminius", action: "link", target: "https://herminius.eth.limo" },
           ],
           image: {
-            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/iurta.gif`,
+            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/iurta.png`,
             aspectRatio: "1:1",
           },
         })
@@ -167,7 +167,7 @@ async function getResponse(
             { label: "herminius", action: "link", target: "https://herminius.eth.limo" },
           ],
           image: {
-            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/monaiker.gif`,
+            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/monaiker.png`,
             aspectRatio: "1:1",
           },
         })
