@@ -324,7 +324,7 @@ async function getResponse(
             { label: "herminius", action: "link", target: "https://herminius.eth.limo" },
           ],
           image: {
-            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/integrityillusion.gif`,
+            src: `${NEXT_PUBLIC_SITE_URL}/img/frame_img/deck/integrityIllusion.gif`,
             aspectRatio: "1:1",
           },
         })
